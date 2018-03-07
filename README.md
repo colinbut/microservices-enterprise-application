@@ -14,7 +14,7 @@ See table below for list of microservices.
 
 
 | Microservice                      | GitHub Repository                                             | Language  |
-| --------------------------------- | ------------------------------------------------------------- |-----------|
+| :-------------------------------- | :------------------------------------------------------------ |-----------|
 | User Service                      | https://github.com/colinbut/user-service.git                  | Java      |
 | Registration Service              | https://github.com/colinbut/registration-service              | Java      |
 | Exclusion Service                 | https://github.com/colinbut/exclusion-service                 | Java      |
