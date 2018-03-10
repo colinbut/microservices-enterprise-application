@@ -20,11 +20,13 @@ See table below for list of microservices.
 | Exclusion Service                 | https://github.com/colinbut/exclusion-service                 | Java      |
 | Subscription Service              | https://github.com/colinbut/subscription-service.git          | Ruby      |
 | Email Service                     | https://github.com/colinbut/email-service.git                 | Golang    |
-| Registration Email Service        | https://github.com/colinbut/registration-email-service        | Python    |
+| Registration Email Service        | https://github.com/colinbut/registration-email-service.git    | Python    |
+| Account Service                   | TBC                                                           | Java      |
 | Marketing Service                 | TBC                                                           | TBC       |
-| Notification Service              | TBC                                                           | TBC       |
+| Notification Service              | https://github.com/colinbut/notification-service.git          | Java      |
 | Audit Service                     | TBC                                                           | TBC       |
 | Reporting Service                 | TBC                                                           | TBC       |
+
 
 
 This microservice project demonstrates a Polygot nature (different microservices implemented using different programming languages) to develop microservices which is quite common. In real life, in a corporate company, you 
