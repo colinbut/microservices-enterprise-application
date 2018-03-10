@@ -60,7 +60,27 @@ Two styles:
 
 #### Deployment Strategy
 
-[TBD]
+The ideal strategy in terms of deployment (onto a production environment) would be to have in place
+a mechanism to make use of Containers and Orchestration 
+
+1. Dockerized Apps (Containers)
+2. Kubernetes Cluster (Orchestration)
+
+in local we can also run each microservice individually or attempt to mimic the 'production' setup by running the Docker 
+containers since most (all?) of the microservices are Dockerized.
+
+This project repo is a demo project hence doesn't go that far in showcasing the use of running and scaling the dockerized
+microservices apps within Kubernetes. However, you can try. 
+
+Also, you can try to deploy to the Cloud and make it Cloud-Native in order to take advantage of IAAS meaning you don't need to 
+manage a cluster of Kubernetes pods/Docker containers manually. As it requires a lot of Ops work.  
+
+You can try on the various cloud providers like AWS, GCP, Microsoft Azure, Red Hat OpenShift.
+ 
+Alternative, you can try to deploy these microservices on the PAAS such as Heroku, CloudFoundry etc.
+
+I didn't put much effort into the deployment side of things as i wanted to focus this demo project on the "App" side of things
+in order to demonstrate how a Microservice architecture application looks like.
 
 #### Caveats
 
