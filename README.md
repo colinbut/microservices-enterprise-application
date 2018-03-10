@@ -46,6 +46,26 @@ Two styles:
 1. Synchronus HTTP REST [API calls]
 2. Asynchronous Messaging (JMS and AMQP)
 
+#### Environment Setup
+
+[TBD]
+
+#### Development Strategy
+
+[TBD]
+
+#### Testing Strategy
+
+[TBD]
+
+#### Deployment Strategy
+
+[TBD]
+
+#### Caveats
+
+[TBD]
+
 #### Roadmap
 
 Adopt another style of communitcation - Event-Driven Architecture (EDA) style with the use of Event Sourcing and CQRS techniques:
