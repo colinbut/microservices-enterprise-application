@@ -48,7 +48,26 @@ Two styles:
 
 #### Orchestration vs Choreography
 
-[TBD]
+This demo project showcases both styles in Orchestration and Choreography as outlined in above Communication section where we 
+utilise 2 styles of communication.
+
+In terms of Service Orchestration - See Registration Service. This service demonstrates orchestration where the Registration Service
+does some orchestration in order to implement its Business Workflow. E.g. It first calls out to UserService to check whether
+an already existing user with supplied registration details already exists before checking whether the supplied details are blacklisted or not.
+Finally, successful registration by creating the user (again, making another synchronous HTTP REST API call out to User Service).
+In addition, sends an message to Subscription Service for that to process the subscription email for the registration.
+
+For Choreography, take a look at the following services:
+
+- registration-email-service
+- notification-service
+- subscription-service
+- email-service
+
+Each of these services reacts to messages sent to either the RabbitMQ exchange (AMQP) or ActiveMQ queue (JMS).
+ 
+This whole demo project uses a combination of these both techniques for the microservices's app's IPC (Inter Process Communication).
+ 
 
 #### Environment Setup
 
