@@ -39,12 +39,16 @@ do it from scratch at the start.
 
 Here, in my own personal project, i have built from scratch for the purpose of just a demo project.
 
-#### Communucation
+#### Communication
 
 Two styles:
 
 1. Synchronus HTTP REST [API calls]
 2. Asynchronous Messaging (JMS and AMQP)
+
+#### Orchestration vs Choreography
+
+[TBD]
 
 #### Environment Setup
 
