@@ -24,7 +24,7 @@ See table below for list of microservices.
 | Account Service                   | TBC                                                           | Java      |
 | Marketing Service                 | TBC                                                           | TBC       |
 | Notification Service              | https://github.com/colinbut/notification-service.git          | Java      |
-| Audit Service                     | TBC                                                           | TBC       |
+| Audit Service                     | https://github.com/colinbut/audit-service.git                 | Java      |
 | Reporting Service                 | TBC                                                           | TBC       |
 
 
