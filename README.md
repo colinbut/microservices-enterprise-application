@@ -21,7 +21,7 @@ See table below for list of microservices.
 | Subscription Service              | https://github.com/colinbut/subscription-service.git          | Ruby      |
 | Email Service                     | https://github.com/colinbut/email-service.git                 | Golang    |
 | Registration Email Service        | https://github.com/colinbut/registration-email-service.git    | Python    |
-| Account Service                   | TBC                                                           | Java      |
+| Account Service                   | https://github.com/colinbut/account-service.git               | Java      |
 | Marketing Service                 | TBC                                                           | TBC       |
 | Notification Service              | https://github.com/colinbut/notification-service.git          | Java      |
 | Audit Service                     | https://github.com/colinbut/audit-service.git                 | Java      |
