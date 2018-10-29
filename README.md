@@ -92,18 +92,21 @@ a mechanism to make use of Containers and Orchestration
 in local we can also run each microservice individually or attempt to mimic the 'production' setup by running the Docker 
 containers since most (all?) of the microservices are Dockerized.
 
-This project repo is a demo project hence doesn't go that far in showcasing the use of running and scaling the dockerized
-microservices apps within Kubernetes. However, you can try. 
+An example of a deployment structure (based on Docker/Kubernetes) can be found at [Microservices Enterprise Application Deployments](https://github.com/colinbut/microservices-enterprise-application-deployments)
 
-Also, you can try to deploy to the Cloud and make it Cloud-Native in order to take advantage of IAAS meaning you don't need to 
-manage a cluster of Kubernetes pods/Docker containers manually. As it requires a lot of Ops work.  
+Also, you can try to deploy to the Cloud and make it Cloud-Native in order to take advantage of IAAS meaning you don't necessary have to
+manage a cluster of Kubernetes pods/Docker containers on bare-metal physical servers as this process requires a lot of Ops work. This approach
+encourages pure vendor lock-in.
 
-You can try on the various cloud providers like AWS, GCP, Microsoft Azure, Red Hat OpenShift.
+For example, if deploying on AWS and using AWS's full native integrated features you can run the microservices either on (legacy?) EC2 instances which are managed VMs on the cloud.
+Or, you can use Elastic Container Service (ECS) to run the microservices in AWS's native containerized solution.
+
+For the optimisitic tech player, one could try and run a Kubernetes cluster inside ECS or EC2 instances. Note that this is probably for the more advanced players.
+
+In terms of Cloud vendors, various cloud providers like AWS, GCP, Microsoft Azure, Digital Ocean, Red Hat OpenShift is worth a look
  
 Alternative, you can try to deploy these microservices on the PAAS such as Heroku, CloudFoundry etc.
 
-I didn't put much effort into the deployment side of things as i wanted to focus this demo project on the "App" side of things
-in order to demonstrate how a Microservice architecture application looks like.
 
 #### Caveats
 
